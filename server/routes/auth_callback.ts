@@ -1,5 +1,5 @@
 import express from "express";
-import { githubGetAccessToken, githubGetUser } from "../helpers/auth";
+import { githubGetAccessToken, githubGetUser } from "../helpers/auth_callback";
 
 const router = express.Router();
 
