@@ -1,0 +1,13 @@
+#imageLabeler {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+#canvas {
+  outline: black 3px solid;
+  margin: 50;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

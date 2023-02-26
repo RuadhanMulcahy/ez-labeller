@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import ImageLabeler from "./components/ImageLabeller";
+import ImageLabeler from "./components/ImageLabeler/ImageLabeler";
+// import ImageLabeler from "./components/ImageLabeler";
+// import { ImageProvider } from "./contexts/ImageLabelerContext";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
